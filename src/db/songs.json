@@ -1,6 +1,6 @@
 {
     "ids": ["1", "2"],
-    "map": {
+    "data": {
         "1": {
             "title": "Rolling in the Deep",
             "duration": "6:59",
