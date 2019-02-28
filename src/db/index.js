@@ -1,12 +1,16 @@
-import songs from './songs.json'
+let SONGS
 
 // put export in top of the file so that
 // it's easier to peek at the file and see its contents
-module.exports = { getAllSongs, getSongById }
+module.exports = { loadDb, getAllSongs, getSongById }
 
+// run at startup and during tests
+function loadDb(data) {
+    SONGS = data
+}
 function getAllSongs() {
-    return songs.ids.map(id => songs.data[id])
+    return SONGS.ids.map(id => SONGS.data[id])
 }
 function getSongById(id) {
-    return songs.data[id]
+    return SONGS.data[id]
 }
