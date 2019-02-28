@@ -1,0 +1,21 @@
+{
+    "ids": ["1", "2"],
+    "map": {
+        "1": {
+            "title": "Rolling in the Deep",
+            "duration": "3:48",
+            "genre": "Alternative Rock",
+            "artist": "Adele",
+            "recorded": 2011,
+            "id": "1"
+        },
+        "2": {
+            "title": "In the End",
+            "duration": "3:36",
+            "genre": "rap rock",
+            "artist": "Linkin Park",
+            "recorded": 2000,
+            "id": "2"
+        }
+    }
+}
